@@ -2,7 +2,34 @@
   "sections": {
     "main": {
       "type": "stores-page",
+      "blocks": {
+        "6f83adf8-9480-4933-9823-db2913172883": {
+          "type": "store_info",
+          "settings": {
+            "store_image": "shopify:\/\/shop_images\/heavy-snow-drift-on-mountain.jpg",
+            "title": "Store Name",
+            "store_address": "Store Address",
+            "store_link": "shopify:\/\/pages\/about-us"
+          }
+        },
+        "92a1e9e0-6c2f-4006-88a8-cf2e01180cac": {
+          "type": "store_info",
+          "settings": {
+            "store_image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "title": "Store Name",
+            "store_address": "Store Address",
+            "store_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6f83adf8-9480-4933-9823-db2913172883",
+        "92a1e9e0-6c2f-4006-88a8-cf2e01180cac"
+      ],
       "settings": {
+        "stores_title": "Stores",
+        "grid_num_rule_pc": "3",
+        "grid_num_rule_sp": "3",
         "padding_top": 28,
         "padding_bottom": 28
       }
